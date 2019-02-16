@@ -1,0 +1,38 @@
+/* 
+    Document   : style
+    Created on : 20-abr-2013, 6:40:37
+    Author     : vivelab3
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    text-align: center;
+    background-color: brown;  
+}
+
+article{
+    text-align: center;
+}
+div{
+/*    margin-left: 25%;*/
+    width: 800px;
+    height: 600px;
+    border: 1px solid #aaaaaa;
+}
+
+canvas.mycanvas{
+    /*margin-left: 25%;*/
+    width:800px;
+    height:600px;
+    border: 1px solid #aaaaaa;
+    background-color: black;
+    color:red;
+}
+canvas{
+/*    margin-left: 25%;*/
+    width:800px;
+    height:600px;
+    border: 1px solid #aaaaaa;
+    background-color: black;
+    color:red;
+}

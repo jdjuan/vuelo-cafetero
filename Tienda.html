@@ -1,0 +1,41 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="Style/inicio.css"/>
+        <script>
+            var pluma_comprada = false;
+            function comprar_pluma(x) {
+                if (pluma_comprada == false) {
+                    alert('Artículo Comprado');
+                    pluma_comprada = true;
+                }else{
+                    alert('Ya posees este artículo');
+                }
+            }
+            var velocimetro_comprada = false;
+            function comprar_velocimetro(x) {
+                if (velocimetro_comprada == false) {
+                    alert('Artículo Comprado');
+                    velocimetro_comprada = true;
+                }else{
+                    alert('Ya posees este artículo');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div style="position: absolute; margin-left: 20%"><img style="width:45em" src="media/tienda.png"/>
+            <img src="media/btnJugar1.png" style="cursor:pointer; z-index:2; left: 37em;top: 1em;width: 6em;" onclick="location = 'index.html'"/>
+            <img src="media/pluma.png" style="cursor:pointer;left: 6em;width: 12em;top: 7.5em;" onclick="comprar_pluma(this)" class="tooltip"/>
+            <img src="media/velocimetrotienda.png" style="cursor:pointer;left: 25em;width: 12em;top: 7.5em;" onclick="comprar_velocimetro(this)"/>
+        </div>
+
+
+    </body>
+</html>

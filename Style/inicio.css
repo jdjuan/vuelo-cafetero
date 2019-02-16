@@ -1,0 +1,55 @@
+/* 
+    Document   : menu
+    Created on : 20-abr-2013, 11:46:01
+    Author     : vivelab3
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    margin: 2em;
+    background-color: brown;  
+    text-align: center;
+}
+
+img{
+    position: absolute;
+}
+.tooltip {
+    display: inline;
+    position: relative;
+  }
+  .tooltip:hover:after {
+    bottom: 26px;
+    content: attr('Compra la pluma para hacer tu planeador más liviano'); /* este es el texto que será mostrado */
+    left: 20%;
+    position: absolute;
+    z-index: 98;
+    /* el formato gráfico */
+    background: rgba(255,255,255, 0.2); /* el color de fondo */
+    border-radius: 5px;
+    color: #FFF; /* el color del texto */
+    font-family: Georgia;
+    font-size: 12px;
+    padding: 5px 15px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    width: 150px;
+  }
+  .tooltip:hover:before {
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+    /* el triángulo inferior */
+    border: solid;
+    border-color: rgba(255,255,255, 0.2) transparent;
+    border-width: 6px 6px 0 6px;
+  }
